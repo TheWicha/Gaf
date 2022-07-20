@@ -1,0 +1,8 @@
+.link {
+    padding: 1.25em;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    &:hover{
+        border-bottom: 2px solid rgb(0, 0, 0);         
+    }
+}
