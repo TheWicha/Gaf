@@ -10,6 +10,8 @@ const NavigationFacade = () => {
     const [isOpened, setIsOpened] = React.useState(true)
     const [isHome, setIsHome] = React.useState(false)
 
+
+
     const handleClick = () => {
         setIsOpened(prevState => !prevState)
     }
@@ -20,6 +22,7 @@ const NavigationFacade = () => {
             router.pathname === '/home' ? setIsHome(true) : setIsHome(false)
         }
     }, [router.pathname])
+    
 
     if (isMobileDevice) {
         return <MobileNavi isOpened={isOpened} onClick={handleClick} />

@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em auto;
+    max-width: 1400px;
+}
+
+.link {
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    cursor: pointer;
+}
+
